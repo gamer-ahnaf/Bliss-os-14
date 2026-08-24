@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    color: #f8fafc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: rgba(30, 41, 59, 0.7);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+    max-width: 650px;
+    width: 90%;
+    text-align: center;
+}
+
+.badge {
+    background-color: #0284c7;
+    color: #e0f2fe;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+}
+
+h1 {
+    font-size: 1.6rem;
+    color: #38bdf8;
+    margin-bottom: 15px;
+    line-height: 1.4;
+    word-wrap: break-word;
+}
+
+.description {
+    color: #94a3b8;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.specs {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.spec-item {
+    background-color: rgba(15, 23, 42, 0.6);
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    color: #cbd5e1;
+    border: 1px solid #334155;
+}
+
+.download-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 16px 36px;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    box-shadow: 0 10px 25px rgba(2, 132, 199, 0.4);
+    transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 30px rgba(2, 132, 199, 0.6);
+    background: linear-gradient(135deg, #0369a1 0%, #075985 100%);
+}
+
+.download-btn svg {
+    width: 22px;
+    height: 22px;
+    fill: currentColor;
+}
+
+footer {
+    margin-top: 25px;
+    font-size: 0.8rem;
+    color: #64748b;
+}
