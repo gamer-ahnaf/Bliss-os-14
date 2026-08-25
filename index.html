@@ -9,7 +9,9 @@
 <body>
 
     <div class="card">
-        <span class="badge">Official ISO Release (Without Malware)</span>
+        <div class="badge-container">
+            <span class="badge">Official ISO Release (Without Malware)</span>
+        </div>
         
         <h1>Bliss OS v14 10.3 x86_x64 Official OpenGApps 20241012</h1>
 
@@ -28,8 +30,17 @@
             <svg viewBox="0 0 24 24">
                 <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
             </svg>
-            Download Now (from-source.forge)
+            <div class="btn-text">
+                <span>Download Now</span>
+                <small>(from SourceForge)</small>
+            </div>
         </a>
+
+        <!-- Source & SHA256 Info directly under button -->
+        <div class="source-info">
+            <p>File originally sourced from official BlissOS SourceForge repository</p>
+            <p><small>SHA256: <code>9feb9482e6e5c41c52172a0d42a436ea808de1cfdd6b1e0187dc883b2df9085c</code></small></p>
+        </div>
 
         <!-- System Requirements -->
         <div class="section">
@@ -171,10 +182,7 @@
         </div>
 
         <footer>
-            <p>
-                File originally sourced from official BlissOS SourceForge repository<br>
-                <small>SHA256: <code>9feb9482e6e5c41c52172a0d42a436ea808de1cfdd6b1e0187dc883b2df9085c</code></small>
-            </p>
+            <p>Direct Access • Free & Open Source</p>
         </footer>
     </div>
 
