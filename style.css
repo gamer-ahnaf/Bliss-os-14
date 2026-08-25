@@ -29,6 +29,12 @@ body {
     text-align: left;
 }
 
+.badge-container {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
 .badge {
     background-color: #0284c7;
     color: #e0f2fe;
@@ -37,7 +43,6 @@ body {
     font-size: 0.85rem;
     font-weight: 600;
     display: inline-block;
-    margin-bottom: 20px;
     letter-spacing: 0.5px;
 }
 
@@ -78,18 +83,16 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 12px;
     background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
     color: #ffffff;
     text-decoration: none;
-    padding: 16px 36px;
+    padding: 14px 28px;
     border-radius: 50px;
-    font-size: 1.1rem;
-    font-weight: 700;
     box-shadow: 0 10px 25px rgba(2, 132, 199, 0.4);
     transition: all 0.3s ease;
-    margin: 0 auto 40px auto;
-    max-width: 400px;
+    margin: 0 auto 15px auto;
+    max-width: 320px;
     text-align: center;
 }
 
@@ -100,14 +103,49 @@ h1 {
 }
 
 .download-btn svg {
-    width: 22px;
-    height: 22px;
+    width: 24px;
+    height: 24px;
     fill: currentColor;
     flex-shrink: 0;
 }
 
+.btn-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-text span {
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.btn-text small {
+    font-size: 0.8rem;
+    font-weight: 400;
+    opacity: 0.9;
+    margin-top: 2px;
+}
+
+.source-info {
+    text-align: center;
+    font-size: 0.82rem;
+    color: #64748b;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.source-info code {
+    background-color: rgba(15, 23, 42, 0.8);
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: #94a3b8;
+    word-break: break-all;
+}
+
 .section {
-    margin-top: 40px;
+    margin-top: 30px;
     padding-top: 30px;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -188,15 +226,6 @@ ul li strong {
 footer {
     margin-top: 40px;
     text-align: center;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     color: #64748b;
-    line-height: 1.5;
-}
-
-footer code {
-    background-color: rgba(15, 23, 42, 0.8);
-    padding: 2px 6px;
-    border-radius: 4px;
-    color: #cbd5e1;
-    word-break: break-all;
 }
